@@ -52,7 +52,7 @@ div.section {
 	nav ul {
 		display : none;
 	}
-	#logo {
+	#name {
 		text-align: left;
 	}
 }
@@ -63,3 +63,24 @@ div.section {
 		display: none;
 	}
 }
+
+/* Below 960 */
+@media only screen and (max-width: 959px) {
+	#name {
+		font-size: 21px;
+		margin-bottom: 15px;
+	}
+
+	nav .button {
+		padding: 9px 20px 11px;
+	}
+}
+
+/* iPad */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	nav {
+		width: 124px;
+	}
+}
+
+/* Email masking */
